@@ -1,9 +1,15 @@
-import Page from "../components/page";
+import AboutMe from "../components/about";
+import Content from "../components/content";
+import EducationAndSkills from "../components/educationAndSkills";
+import Sidebar from "../components/sidebar";
 
 export default function Home() {
   return (
-    <Page>
-      <h1>Home</h1>
-    </Page>
+    <div className="flex">
+      <Sidebar />
+      {/* <Content /> */}
+      {/* <AboutMe /> */}
+      <EducationAndSkills />
+    </div>
   );
 }
