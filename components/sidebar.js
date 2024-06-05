@@ -3,7 +3,7 @@ import React from "react";
 
 const Sidebar = () => {
   return (
-    <div className="w-2/12 bg-gray-100 h-screen p-5 flex flex-col items-center">
+    <div className="w-2/12 bg-[#F7F7FF] h-screen p-5 flex flex-col items-center">
       <div className="mb-8">
         <img
           src="https://sergio-react.vercel.app/static/img/about-me.jpg"
