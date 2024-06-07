@@ -1,4 +1,7 @@
 import AboutMe from "../components/about";
+import Blog from "../components/blog";
+import CircularLogos from "../components/circularLogos";
+import Contact from "../components/contact";
 import Content from "../components/content";
 import EducationAndSkills from "../components/educationAndSkills";
 import Experience from "../components/experience";
@@ -15,7 +18,11 @@ export default function Home() {
       {/* <EducationAndSkills /> */}
       {/* <WhatIDo /> */}
       {/* <Experience /> */}
-      <Testimonial />
+      {/* <Testimonial /> */}
+      {/* <Contact /> */}
+      <Blog />
+
+      {/* <CircularLogos /> */}
     </div>
   );
 }

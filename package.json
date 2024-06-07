@@ -12,7 +12,8 @@
     "framer-motion": "^10.17.9",
     "next": "14.0.3",
     "react": "^18",
-    "react-dom": "^18"
+    "react-dom": "^18",
+    "react-parallax-tilt": "^1.7.227"
   },
   "devDependencies": {
     "@types/node": "^20",
