@@ -6,7 +6,7 @@ const Contact = () => {
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
         <div className="bg-gray-100 p-6 rounded-lg shadow-md">
           <h2 className="text-3xl font-semibold mb-4">
-            What's your story? Get in touch
+            Whats your story? Get in touch
           </h2>
           <p className="mb-4">
             Always available for freelancing if the right project comes along.

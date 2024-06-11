@@ -14,11 +14,11 @@ const AboutMe = () => {
       <div className="lg:ml-16 mt-8 lg:mt-0 text-center lg:text-left max-w-lg">
         <h2 className="text-3xl font-semibold mb-4">ABOUT ME.</h2>
         <h3 className="text-xl font-bold mb-2">
-          I'm a Freelancer Front-end Developer with over 3 years of experience.
+          Im a Freelancer Front-end Developer with over 3 years of experience.
         </h3>
         <p className="text-gray-700 mb-4">
-          I'm a Freelancer Front-end Developer with over 3 years of experience.
-          I'm from San Francisco. I code and create web elements for amazing
+          Im a Freelancer Front-end Developer with over 3 years of experience.
+          Im from San Francisco. I code and create web elements for amazing
           people around the world. I like work with new people. New people new
           Experiences.
         </p>
