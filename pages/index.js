@@ -18,7 +18,7 @@ export default function Home() {
       {/* <Experience /> */}
       {/* <Testimonial /> */}
       {/* <Contact /> */}
-      <Blog />
+      {/* <Blog /> */}
 
       {/* <CircularLogos /> */}
     </div>
