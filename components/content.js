@@ -1,40 +1,14 @@
-// // Content.js
-// import React from "react";
-
-// const Content = () => {
-//   return (
-//     <div className="w-3/4 p-10">
-//       <h1 className="text-5xl font-bold">
-//         Hello, I am <span className="text-green-500">Sergio Gadot</span>
-//       </h1>
-//       <h2 className="text-xl font-semibold mt-4">I Am Passionate Freela</h2>
-//       <p className="text-gray-700 mt-4">
-//         I design and develop services for customers of all sizes, specializing
-//         in creating stylish, modern websites, web services, and online stores.
-//       </p>
-//       <button className="mt-6 bg-green-500 text-white px-6 py-2 rounded shadow">
-//         Download CV
-//       </button>
-//     </div>
-//   );
-// };
-
-// export default Content;
-
 import React from "react";
 
 const Content = () => {
   return (
-    <div className="flex flex-col-reverse md:flex-row items-center justify-between bg-gray-900 text-white py-16 px-8 md:px-24">
+    <div className="flex flex-col md:flex-row items-center justify-center bg-[#10101A] text-white py-16 px-8 md:px-24">
       <div className="md:w-1/2 text-center md:text-left">
         <h2 className="text-2xl md:text-4xl font-bold mb-2 md:mb-4">
-          Hello, I am
+          Hello, I am Leion
         </h2>
-        {/* <h1 className="text-3xl md:text-6xl font-bold mb-2 md:mb-4">
-          Sergio Gadot
-        </h1> */}
         <h3 className="text-lg md:text-2xl font-semibold mb-2 md:mb-4">
-          I Am Passionate F
+          I Am a Passionate Front end engineer
         </h3>
         <p className="text-base md:text-xl mb-4 md:mb-8">
           I design and develop services for customers of all sizes, specializing
