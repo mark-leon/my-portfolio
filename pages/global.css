@@ -191,3 +191,7 @@ h1 {
   color: white;
   transform: rotateY(180deg);
 }
+
+.iframe-style {
+  filter: grayscale(100%);
+}

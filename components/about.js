@@ -2,7 +2,7 @@ import React from "react";
 
 const AboutMe = () => {
   return (
-    <div className="max-w-6xl mx-auto flex flex-col lg:flex-row p-10 items-center justify-center">
+    <div className="max-w-7xl mx-auto gap-10 flex flex-col lg:flex-row  items-center justify-center">
       <div className="grid grid-cols-1 sm:grid-cols-1">
         <img
           src="https://sergio-react.vercel.app/static/img/about-me.png"

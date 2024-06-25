@@ -2,30 +2,29 @@ import React from "react";
 
 const Contact = () => {
   return (
-    <div className="p-10">
+    <div className="max-w-6xl mx-auto gap-10">
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
-        <div className="bg-gray-100 p-6 rounded-lg shadow-md">
-          <h2 className="text-3xl font-semibold mb-4">
-            Whats your story? Get in touch
-          </h2>
+        <div className="w-8/12 bg-[#0b0b13]  text-white p-6 rounded-lg shadow-md ">
+          <h2 className="text-3xl font-semibold mb-4">Whats your story?</h2>
+          <h3 className="text-xl font-semibold mb-4"> Get in touch</h3>
           <p className="mb-4">
             Always available for freelancing if the right project comes along.
             Feel free to contact me.
           </p>
           <ul>
-            <li className="mb-2">
+            <li className="mb-2 font-extrabold">
               <span role="img" aria-label="location" className="mr-2">
                 📍
               </span>
               123 Stree New York City, United States Of America 750065.
             </li>
-            <li className="mb-2">
+            <li className="mb-2 font-extrabold">
               <span role="img" aria-label="email" className="mr-2">
                 📧
               </span>
               support@domain.com
             </li>
-            <li className="mb-2">
+            <li className="mb-2 font-extrabold">
               <span role="img" aria-label="phone" className="mr-2">
                 📞
               </span>
@@ -33,59 +32,37 @@ const Contact = () => {
             </li>
           </ul>
         </div>
-        <div className="bg-gray-100 p-6 rounded-lg shadow-md">
-          <h2 className="text-3xl font-semibold mb-4">Say Something</h2>
-          <form>
+        <div className="bg-[#0b0b13]  text-white p-6 rounded-lg shadow-md">
+          <h2 className="text-2xl font-semibold mb-4">Say Something</h2>
+          <div>
             <div className="mb-4">
-              <label
-                htmlFor="name"
-                className="block text-sm font-medium text-gray-700"
-              >
-                Name *
-              </label>
               <input
                 type="text"
+                placeholder="Name"
                 id="name"
-                className="mt-1 block w-full p-2 border border-gray-300 rounded-md"
+                className="mt-1 w-[47%]  p-2 border bg-[#0b0b13] border-gray-300 rounded-md"
               />
-            </div>
-            <div className="mb-4">
-              <label
-                htmlFor="email"
-                className="block text-sm font-medium text-gray-700"
-              >
-                Email *
-              </label>
               <input
                 type="email"
+                placeholder="Email"
                 id="email"
-                className="mt-1 block w-full p-2 border border-gray-300 rounded-md"
+                className="mt-1 w-[47%] p-2 ml-7 border bg-[#0b0b13] border-gray-300 rounded-md"
               />
             </div>
             <div className="mb-4">
-              <label
-                htmlFor="subject"
-                className="block text-sm font-medium text-gray-700"
-              >
-                Subject *
-              </label>
               <input
                 type="text"
+                placeholder="Subject"
                 id="subject"
-                className="mt-1 block w-full p-2 border border-gray-300 rounded-md"
+                className="mt-1 w-full p-2 border bg-[#0b0b13] border-gray-300 rounded-md"
               />
             </div>
             <div className="mb-4">
-              <label
-                htmlFor="message"
-                className="block text-sm font-medium text-gray-700"
-              >
-                Your message *
-              </label>
               <textarea
+                placeholder="Your message"
                 id="message"
                 rows="4"
-                className="mt-1 block w-full p-2 border border-gray-300 rounded-md"
+                className="mt-1 w-full p-2 border bg-[#0b0b13] border-gray-300 rounded-md"
               ></textarea>
             </div>
             <button
@@ -94,17 +71,18 @@ const Contact = () => {
             >
               send message
             </button>
-          </form>
+          </div>
         </div>
       </div>
       <div className="mt-10">
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.843821578896!2d144.96305791557644!3d-37.81362774259238!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0xf5776e97a6e8d7e!2sEnvato!5e0!3m2!1sen!2sus!4v1630641533370!5m2!1sen!2sus"
           width="100%"
-          height="450"
+          height="350"
           allowFullScreen=""
           loading="lazy"
-          className="border-0"
+          // className="border-0"
+          className="iframe-style"
         ></iframe>
       </div>
     </div>

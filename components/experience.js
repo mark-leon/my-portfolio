@@ -32,28 +32,29 @@ const experiences = [
 
 const Experience = () => {
   return (
-    <div className="px-4 py-8">
-      <h2 className="text-2xl font-bold text-center mb-8">Experience</h2>
+    <div className="max-w-6xl mx-auto gap-10 mt-16">
+      <h2 className="text-2xl font-bold mb-8 text-white">Experience</h2>
       <div className="gap-6 md:grid-cols-1 lg:grid-cols-1">
         {experiences.map((exp, index) => (
-          <div className="bg-white p-6 rounded-lg shadow-lg flex flex-col md:flex-row items-center md:items-start">
+          <div className="bg-[#0b0b13] p-6 rounded-lg shadow-lg flex flex-col md:flex-row items-center md:items-start">
             <img
+              // src="https://sergio-react.vercel.app/static/img/a1.png"
               src={exp.companyLogo}
               alt={`${exp.company} logo`}
-              className="h-16 w-16 mb-4 md:mb-0 md:mr-6"
+              className="h-40 w-40 mb-4 md:mb-0 md:mr-6"
             />
             <div className="flex-grow">
               <div className="flex justify-between items-center mb-2">
-                <h3 className="text-xl font-semibold">{exp.role}</h3>
+                <h3 className="text-xl font-semibold text-white">{exp.role}</h3>
                 <span className="inline-block px-3 py-1 text-sm font-semibold text-green-700 bg-green-200 rounded-full">
                   Full Time
                 </span>
               </div>
-              <p className="text-gray-600 mb-1">
+              <p className="text-gray-400 mb-1">
                 {exp.company} | {exp.location}
               </p>
-              <p className="text-gray-600 mb-4">{exp.duration}</p>
-              <p className="text-gray-700">{exp.description}</p>
+              <p className="text-gray-400 mb-4">{exp.duration}</p>
+              <p className="text-gray-400">{exp.description}</p>
             </div>
           </div>
         ))}
