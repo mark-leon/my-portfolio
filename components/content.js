@@ -2,7 +2,7 @@ import React from "react";
 
 const Content = () => {
   return (
-    <div className="flex flex-col max-w-7xl mx-auto gap-10 md:flex-row items-center justify-center bg-[#10101A] text-white py-16 px-8 md:px-24">
+    <div className="flex flex-col max-w-7xl mx-auto gap-10 md:flex-row items-center justify-center bg-background text-secondary py-16 px-8 md:px-24">
       <div className="md:w-1/2 text-center md:text-left">
         <h2 className="text-2xl md:text-4xl font-bold mb-2 md:mb-4">
           Hello, I am Leion
@@ -14,7 +14,7 @@ const Content = () => {
           I design and develop services for customers of all sizes, specializing
           in creating stylish, modern websites, web services and online stores.
         </p>
-        <button className="bg-green-500 text-black font-semibold py-2 px-4 rounded hover:bg-green-400 transition duration-300">
+        <button className="bg-green text-black font-semibold py-2 px-4 rounded hover:bg-green-400 transition duration-300">
           Download CV
         </button>
       </div>

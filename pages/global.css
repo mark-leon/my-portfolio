@@ -12,8 +12,10 @@ html,
 body {
   width: 100vw;
   height: 100vh;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  /* font-family: font-sans; */
+}
+body {
+  @apply font-sans;
 }
 
 header {

@@ -12,6 +12,7 @@ import { MdHomeRepairService } from "react-icons/md";
 import { AiFillProject } from "react-icons/ai";
 import { ImBlogger2 } from "react-icons/im";
 import { MdContactEmergency } from "react-icons/md";
+import CircularLogos from "./circularLogos";
 
 const Sidebar = () => {
   return (
@@ -21,7 +22,7 @@ const Sidebar = () => {
         data-drawer-toggle="default-sidebar"
         aria-controls="default-sidebar"
         type="button"
-        className="inline-flex items-center p-2 mt-2 ms-3 text-sm text-gray-500 rounded-lg sm:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+        className="inline-flex items-center p-2 mt-2 ms-3 text-sm text-gray-500 rounded-lg sm:hidden  focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 hover:text-green dark:focus:ring-gray-600"
       >
         <span className="sr-only">Open sidebar</span>
         <svg
@@ -44,10 +45,10 @@ const Sidebar = () => {
         className="fixed top-0 left-0 z-40 w-64 h-screen transition-transform -translate-x-full sm:translate-x-0"
         aria-label="Sidebar"
       >
-        <div className="h-full overflow-y-auto bg-[#0C0C14] dark:bg-gray-800">
+        <div className="h-full overflow-y-auto bg-primary dark:bg-gray-800">
           <div className="relative flex flex-col items-center">
             <div
-              className="w-full h-32 bg-green-500"
+              className="w-full h-32 bg-green"
               style={{ clipPath: "ellipse(50% 80% at 40% 0)" }}
             ></div>
             <div className="absolute top-8 flex flex-col items-center">
@@ -56,14 +57,14 @@ const Sidebar = () => {
                 alt="Profile"
                 className="w-24 h-24 rounded-full border-4 border-white"
               />
-              <span className="text-white mt-4">SERGIOBI</span>
+              <span className="text-secondary mt-4">SERGIOBI</span>
             </div>
           </div>
-          <ul className="mt-8 space-y-2 font-medium">
+          <ul className="mt-24 space-y-2 font-medium pr-8 pl-6">
             <li>
               <a
                 href="#"
-                className="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group"
+                className="flex items-center p-2 text-secondary rounded-lg dark:text-secondary  hover:text-green group"
               >
                 <LuHome />
                 <span className="ms-3">HOME</span>
@@ -72,7 +73,7 @@ const Sidebar = () => {
             <li>
               <a
                 href="#"
-                className="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group"
+                className="flex items-center p-2 text-secondary rounded-lg dark:text-secondary  hover:text-green group"
               >
                 <BsFillPersonVcardFill />
                 <span className="ms-3">ABOUT ME</span>
@@ -81,7 +82,7 @@ const Sidebar = () => {
             <li>
               <a
                 href="#"
-                className="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group"
+                className="flex items-center p-2 text-secondary rounded-lg dark:text-secondary  hover:text-green group"
               >
                 <MdHomeRepairService />
                 <span className="ms-3">SERVICES</span>
@@ -90,7 +91,7 @@ const Sidebar = () => {
             <li>
               <a
                 href="#"
-                className="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group"
+                className="flex items-center p-2 text-secondary rounded-lg dark:text-secondary  hover:text-green group"
               >
                 <AiFillProject />
                 <span className="flex-1 ms-3 whitespace-nowrap">PORTFOLIO</span>
@@ -99,7 +100,7 @@ const Sidebar = () => {
             <li>
               <a
                 href="#"
-                className="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group"
+                className="flex items-center p-2 text-secondary rounded-lg dark:text-secondary  hover:text-green group"
               >
                 <ImBlogger2 />
                 <span className="flex-1 ms-3 whitespace-nowrap">BLOGS</span>
@@ -108,7 +109,7 @@ const Sidebar = () => {
             <li>
               <a
                 href="#"
-                className="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group"
+                className="flex items-center p-2 text-secondary rounded-lg dark:text-secondary  hover:text-green group"
               >
                 <MdContactEmergency />
                 <span className="flex-1 ms-3 whitespace-nowrap">
@@ -169,7 +170,7 @@ const Sidebar = () => {
         </div>
       </aside>
 
-      <div className="p-4 sm:ml-64 bg-[#10101A]">
+      <div className="p-4 sm:ml-64 bg-background">
         <Content />
         <AboutMe />
         <EducationAndSkills />
@@ -177,6 +178,7 @@ const Sidebar = () => {
         <Experience />
         <Testimonial />
         <Contact />
+        {/* <CircularLogos /> */}
       </div>
     </>
   );

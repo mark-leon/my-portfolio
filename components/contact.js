@@ -4,7 +4,7 @@ const Contact = () => {
   return (
     <div className="max-w-6xl mx-auto gap-10">
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
-        <div className="w-8/12 bg-[#0b0b13]  text-white p-6 rounded-lg shadow-md ">
+        <div className="w-8/12 bg-primary  text-secondary p-6 rounded-lg shadow-md ">
           <h2 className="text-3xl font-semibold mb-4">Whats your story?</h2>
           <h3 className="text-xl font-semibold mb-4"> Get in touch</h3>
           <p className="mb-4">
@@ -32,7 +32,7 @@ const Contact = () => {
             </li>
           </ul>
         </div>
-        <div className="bg-[#0b0b13]  text-white p-6 rounded-lg shadow-md">
+        <div className="bg-primary  text-secondary p-6 rounded-lg shadow-md">
           <h2 className="text-2xl font-semibold mb-4">Say Something</h2>
           <div>
             <div className="mb-4">
@@ -40,13 +40,13 @@ const Contact = () => {
                 type="text"
                 placeholder="Name"
                 id="name"
-                className="mt-1 w-[47%]  p-2 border bg-[#0b0b13] border-gray-300 rounded-md"
+                className="mt-1 w-[47%]  p-2 border bg-primary border-gray-300 rounded-md"
               />
               <input
                 type="email"
                 placeholder="Email"
                 id="email"
-                className="mt-1 w-[47%] p-2 ml-7 border bg-[#0b0b13] border-gray-300 rounded-md"
+                className="mt-1 w-[47%] p-2 ml-7 border bg-primary border-gray-300 rounded-md"
               />
             </div>
             <div className="mb-4">
@@ -54,7 +54,7 @@ const Contact = () => {
                 type="text"
                 placeholder="Subject"
                 id="subject"
-                className="mt-1 w-full p-2 border bg-[#0b0b13] border-gray-300 rounded-md"
+                className="mt-1 w-full p-2 border bg-primary border-gray-300 rounded-md"
               />
             </div>
             <div className="mb-4">
@@ -62,12 +62,12 @@ const Contact = () => {
                 placeholder="Your message"
                 id="message"
                 rows="4"
-                className="mt-1 w-full p-2 border bg-[#0b0b13] border-gray-300 rounded-md"
+                className="mt-1 w-full p-2 border bg-primary border-gray-300 rounded-md"
               ></textarea>
             </div>
             <button
               type="submit"
-              className="w-full bg-green-500 text-white p-2 rounded-md hover:bg-green-600"
+              className="w-full bg-green-500 text-secondary p-2 rounded-md hover:bg-green-600"
             >
               send message
             </button>

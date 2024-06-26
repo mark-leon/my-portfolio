@@ -34,7 +34,7 @@ const profiles = [
 const Testimonial = () => {
   return (
     <div className="max-w-6xl mx-auto mt-20">
-      <h2 className="text-2xl font-bold text-white mb-8">Testimonial</h2>
+      <h2 className="text-2xl font-bold text-secondary mb-8">Testimonial</h2>
       <div className="px-2 py-8 grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2">
         {profiles.map((profile, index) => (
           <>

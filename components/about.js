@@ -10,7 +10,7 @@ const AboutMe = () => {
           className="rounded-lg w-full h-auto object-cover"
         />
       </div>
-      <div className="lg:ml-16 mt-8 lg:mt-0 text-center lg:text-left max-w-lg text-white">
+      <div className="lg:ml-16 mt-8 lg:mt-0 text-center lg:text-left max-w-lg text-secondary">
         <h2 className="text-3xl font-semibold mb-4">ABOUT ME.</h2>
         <h3 className="text-xl font-bold mb-2">
           Im a Freelancer Front-end Developer with over 3 years of experience.
@@ -32,10 +32,10 @@ const AboutMe = () => {
           </div>
         </div>
         <div className="flex justify-center lg:justify-start space-x-4">
-          <button className="bg-green-500 text-white px-6 py-2 rounded shadow">
+          <button className="bg-green text-secondary px-6 py-2 rounded shadow">
             Contact Me
           </button>
-          <button className="bg-white border border-green-500 text-green-500 px-6 py-2 rounded shadow">
+          <button className="bg-white border border-green-500 text-green px-6 py-2 rounded shadow">
             Portfolio
           </button>
         </div>
