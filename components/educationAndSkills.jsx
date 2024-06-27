@@ -1,4 +1,5 @@
 import React from "react";
+import CircularLogos from "./circularLogos";
 
 const EducationAndSkills = () => {
   return (
@@ -7,31 +8,6 @@ const EducationAndSkills = () => {
         {/* Education Section */}
         <div className="w-full lg:w-1/2 pr-0 lg:pr-8 mb-10 lg:mb-0">
           <h2 className="text-3xl font-semibold mb-6">EDUCATION & SKILLS</h2>
-          {/* <div className="space-y-6">
-            <div className="bg-gray-100 p-4 rounded-lg">
-              <div className="bg-green-500 text-secondary rounded-full w-max px-3 py-1 mb-2">
-                2010-2012
-              </div>
-              <h3 className="text-xl font-semibold">Graphic Designer</h3>
-              <p className="text-gray-300">International Design Institute</p>
-            </div>
-            <div className="bg-gray-100 p-4 rounded-lg">
-              <div className="bg-green-500 text-secondary rounded-full w-max px-3 py-1 mb-2">
-                2010-2012
-              </div>
-              <h3 className="text-xl font-semibold">Web Development</h3>
-              <p className="text-gray-300">International Design Institute</p>
-            </div>
-            <div className="bg-gray-100 p-4 rounded-lg">
-              <div className="bg-green-500 text-secondary rounded-full w-max px-3 py-1 mb-2">
-                2010-2012
-              </div>
-              <h3 className="text-xl font-semibold">
-                Search Engine Optimization
-              </h3>
-              <p className="text-gray-300">International Design Institute</p>
-            </div>
-          </div> */}
           <div className="col-lg-4 m-15px-tb">
             <ul className="m-0 p-0 bg-primary list-none">
               <li className="p-5">
@@ -63,7 +39,8 @@ const EducationAndSkills = () => {
 
         {/* Skills Section */}
         <div className="w-full lg:w-1/2">
-          <h2 className="text-3xl font-semibold mb-6">My skills</h2>
+          <CircularLogos />
+          {/* <h2 className="text-3xl font-semibold mb-6">My skills</h2>
           <p className="text-gray-300 mb-6">
             Im a Freelancer Front-end Developer with over 3 years of experience.
             I code and create web elements for amazing people around the world.
@@ -74,7 +51,7 @@ const EducationAndSkills = () => {
               <label className="block text-gray-300 mb-1">HTML5</label>
               <div className="w-full bg-gray-200 rounded-full h-2.5 mb-4">
                 <div
-                  className="bg-green-500 h-2.5 rounded-full"
+                  className="bg-green h-2.5 rounded-full"
                   style={{ width: "90%" }}
                 ></div>
               </div>
@@ -83,7 +60,7 @@ const EducationAndSkills = () => {
               <label className="block text-gray-300 mb-1">WordPress</label>
               <div className="w-full bg-gray-200 rounded-full h-2.5 mb-4">
                 <div
-                  className="bg-green-500 h-2.5 rounded-full"
+                  className="bg-green h-2.5 rounded-full"
                   style={{ width: "80%" }}
                 ></div>
               </div>
@@ -92,7 +69,7 @@ const EducationAndSkills = () => {
               <label className="block text-gray-300 mb-1">Magento</label>
               <div className="w-full bg-gray-200 rounded-full h-2.5 mb-4">
                 <div
-                  className="bg-green-500 h-2.5 rounded-full"
+                  className="bg-green h-2.5 rounded-full"
                   style={{ width: "70%" }}
                 ></div>
               </div>
@@ -101,12 +78,12 @@ const EducationAndSkills = () => {
               <label className="block text-gray-300 mb-1">UI/UX</label>
               <div className="w-full bg-gray-200 rounded-full h-2.5 mb-4">
                 <div
-                  className="bg-green-500 h-2.5 rounded-full"
+                  className="bg-green h-2.5 rounded-full"
                   style={{ width: "85%" }}
                 ></div>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

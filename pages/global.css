@@ -30,11 +30,6 @@ header .header-items {
   display: flex;
 }
 
-header .header-items .header-item,
-.logo {
-  padding: 1em 2em;
-}
-
 a {
   text-decoration: none;
   color: "#000";
@@ -77,14 +72,14 @@ h1 {
 
 .circle-container {
   position: relative;
-  width: 500px; /* Increased size */
-  height: 500px; /* Increased size */
+  width: 485px; /* Increased size */
+  height: 485px; /* Increased size */
   border-radius: 50%;
   margin: auto;
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #f3f3f3;
+  background: #0f172a;
 }
 
 .logo-container {
