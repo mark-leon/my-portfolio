@@ -14,6 +14,7 @@ import { ImBlogger2 } from "react-icons/im";
 import { MdContactEmergency } from "react-icons/md";
 import CircularLogos from "./circularLogos";
 import Works from "./Works";
+import FlipCard from "./blog";
 
 const Sidebar = () => {
   return (
@@ -54,11 +55,11 @@ const Sidebar = () => {
             ></div>
             <div className="absolute top-8 flex flex-col items-center">
               <img
-                src="https://sergio-react.vercel.app/static/img/about-me.jpg"
+                src="https://media.licdn.com/dms/image/C5603AQH-O-ceF30VwA/profile-displayphoto-shrink_800_800/0/1634241471755?e=1724889600&v=beta&t=E7kMMktVHPWIjWzsFCxSBT9z6YpTWFZbLk5X0_BcyhM"
                 alt="Profile"
                 className="w-24 h-24 rounded-full border-4 border-white"
               />
-              <span className="text-secondary mt-4">SERGIOBI</span>
+              <span className="text-secondary mt-4">LEION</span>
             </div>
           </div>
           <ul className="mt-24 space-y-2 font-medium pr-8 pl-6">
@@ -180,6 +181,7 @@ const Sidebar = () => {
         <Works />
         <Testimonial />
         <Contact />
+        {/* <FlipCard /> */}
         {/* <CircularLogos /> */}
       </div>
     </>

@@ -1,9 +1,12 @@
+import Lottie from "lottie-react";
 import React from "react";
+import contact from "../pages/contact.json";
 
 const Contact = () => {
   return (
     <div className="max-w-6xl mx-auto gap-10 mt-20">
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
+        {/* <Lottie animationData={contact} loop={true} /> */}
         <div className="w-8/12 bg-primary  text-secondary p-6 rounded-lg shadow-md ">
           <h2 className="text-3xl font-semibold mb-4">Whats your story?</h2>
           <h3 className="text-xl font-semibold mb-4"> Get in touch</h3>
