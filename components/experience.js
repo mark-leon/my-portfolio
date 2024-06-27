@@ -33,12 +33,13 @@ const experiences = [
 const Experience = () => {
   return (
     <div className="max-w-6xl mx-auto gap-10 mt-16">
-      <h2 className="text-2xl font-bold mb-8 text-secondary">Experience</h2>
+      <h2 className="text-3xl font-semibold mb-6 text-secondary">Experience</h2>
       <div className="gap-6 md:grid-cols-1 lg:grid-cols-1">
         {experiences.map((exp, index) => (
+          // eslint-disable-next-line react/jsx-key
           <div className="bg-primary p-6 rounded-lg shadow-lg flex flex-col md:flex-row items-center md:items-start">
             <img
-              // src="https://sergio-react.vercel.app/static/img/a1.png"
+              key={index}
               src={exp.companyLogo}
               alt={`${exp.company} logo`}
               className="h-40 w-40 mb-4 md:mb-0 md:mr-6"
@@ -48,7 +49,7 @@ const Experience = () => {
                 <h3 className="text-xl font-semibold text-secondary">
                   {exp.role}
                 </h3>
-                <span className="inline-block px-3 py-1 text-sm font-semibold text-green-700 bg-green-200 rounded-full">
+                <span className="inline-block px-3 py-1 text-sm font-semibold text-green-700 bg-green rounded-full">
                   Full Time
                 </span>
               </div>

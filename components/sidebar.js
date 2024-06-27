@@ -13,6 +13,7 @@ import { AiFillProject } from "react-icons/ai";
 import { ImBlogger2 } from "react-icons/im";
 import { MdContactEmergency } from "react-icons/md";
 import CircularLogos from "./circularLogos";
+import Works from "./Works";
 
 const Sidebar = () => {
   return (
@@ -176,6 +177,7 @@ const Sidebar = () => {
         <EducationAndSkills />
         <WhatIDo />
         <Experience />
+        <Works />
         <Testimonial />
         <Contact />
         {/* <CircularLogos /> */}

@@ -35,7 +35,7 @@ const CircularLogos = () => {
   return (
     <div className="circle-container">
       <div className="absolute w-72 h-72 bg-background rounded-full flex items-center justify-center z-10">
-        {/* <p className="text-lg font-semibold">YOUR LOGO</p> */}
+        <p className="text-4xl font-semibold">My Skills</p>
       </div>
       <div className="logo-container">
         {logos.map((logo, index) => (
