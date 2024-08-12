@@ -2,6 +2,7 @@ import React from "react";
 import Tilt from "react-parallax-tilt";
 
 import { projects } from "../components/constants";
+import myGif from "../pages/";
 
 const ProjectCard = ({ name, description, tags, image, source_code_link }) => {
   return (
@@ -71,6 +72,21 @@ const Works = () => {
         {projects.map((project, index) => (
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}
+        {/* <div className="mt-20 flex flex-wrap gap-7">
+          <img
+            src={
+              "https://s3.brilliant.com.bd/docs-images/platformScreenshots/createAlarm.gif"
+            }
+            alt="A cool GIF"
+          />
+        </div> */}
+        <video autoPlay loop muted playsInline>
+          <source
+            src="https://s3.brilliant.com.bd/leion_portfolio/gifs/5ee89892-bb00-454e-8cbf-d43921a0783e.webm"
+            type="video/webm"
+          />
+          Your browser does not support the video tag.
+        </video>
       </div>
     </div>
   );

@@ -1,6 +1,6 @@
 import React from "react";
 import Experience from "./experience";
-import Testimonial from "./testimonial";
+import Testimonial from "./Feedbacks";
 import WhatIDo from "./whatIdo";
 import EducationAndSkills from "./educationAndSkills";
 import AboutMe from "./about";
@@ -15,6 +15,7 @@ import { MdContactEmergency } from "react-icons/md";
 import CircularLogos from "./circularLogos";
 import Works from "./Works";
 import FlipCard from "./blog";
+import Feedbacks from "./Feedbacks";
 
 const Sidebar = () => {
   return (
@@ -181,6 +182,7 @@ const Sidebar = () => {
         <Works />
         <Testimonial />
         <Contact />
+        <Feedbacks />
         {/* <FlipCard /> */}
         {/* <CircularLogos /> */}
       </div>
