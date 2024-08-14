@@ -1,6 +1,6 @@
 import React from "react";
 import Experience from "./experience";
-import Testimonial from "./Feedbacks";
+// import Testimonial from "./testimonial";
 import WhatIDo from "./whatIdo";
 import EducationAndSkills from "./educationAndSkills";
 import AboutMe from "./about";
@@ -15,7 +15,8 @@ import { MdContactEmergency } from "react-icons/md";
 import CircularLogos from "./circularLogos";
 import Works from "./Works";
 import FlipCard from "./blog";
-import Feedbacks from "./Feedbacks";
+import Testimonial from "./testimonial";
+import Feedbacks from "./Testimonial";
 
 const Sidebar = () => {
   return (
@@ -56,7 +57,7 @@ const Sidebar = () => {
             ></div>
             <div className="absolute top-8 flex flex-col items-center">
               <img
-                src="https://media.licdn.com/dms/image/C5603AQH-O-ceF30VwA/profile-displayphoto-shrink_800_800/0/1634241471755?e=1724889600&v=beta&t=E7kMMktVHPWIjWzsFCxSBT9z6YpTWFZbLk5X0_BcyhM"
+                src="https://s3.brilliant.com.bd/leion_portfolio/1691562725583.jpg"
                 alt="Profile"
                 className="w-24 h-24 rounded-full border-4 border-white"
               />
@@ -180,6 +181,7 @@ const Sidebar = () => {
         <WhatIDo />
         <Experience />
         <Works />
+        {/* <Feedbacks /> */}
         <Testimonial />
         <Contact />
         <Feedbacks />
