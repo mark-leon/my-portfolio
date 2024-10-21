@@ -14,11 +14,12 @@ const Content = () => {
           Hello, I am Leion
         </h2>
         <h3 className="text-lg md:text-2xl font-semibold mb-2 md:mb-4">
-          I Am a Passionate Front end engineer
+          I am a passionate front end engineer
         </h3>
         <p className="text-base md:text-xl mb-4 md:mb-8">
-          I design and develop services for customers of all sizes, specializing
-          in creating stylish, modern websites, web services and online stores.
+          As a front-end engineer, I focus on building intuitive, user-friendly,
+          and responsive web interfaces. My job is to implement seamless user
+          experiences across various platforms.
         </p>
         <button className="bg-green text-black font-semibold py-2 px-4 rounded hover:bg-green-400 transition duration-300">
           Download CV

@@ -11,26 +11,30 @@ const EducationAndSkills = () => {
             <ul className="m-0 p-0 bg-primary list-none">
               <li className="p-5">
                 <span class="bg-[#2fbf71] text-secondary text-[11px] px-2 py-[1px] inline-block align-top tracking-wide -ml-6 relative mb-2.5">
-                  2010-2012
-                </span>
-                <h6 class="text-secondary my-1.5">Graphic Designer</h6>
-                <p>International Design Institute</p>
-              </li>
-              <li className="p-5">
-                <span class="bg-[#2fbf71] text-secondary text-[11px] px-2 py-[1px] inline-block align-top tracking-wide -ml-6 relative mb-2.5">
-                  2010-2012
-                </span>
-                <h6 class="text-secondary my-1.5">Web Development</h6>
-                <p>International Design Institute</p>
-              </li>
-              <li className="p-5">
-                <span class="bg-[#2fbf71] text-secondary text-[11px] px-2 py-[1px] inline-block align-top tracking-wide -ml-6 relative mb-2.5">
-                  2010-2012
+                  2018-2022
                 </span>
                 <h6 class="text-secondary my-1.5">
-                  Search Engine Optimization
+                  Bachelor of Science in Computer Science
                 </h6>
-                <p>International Design Institute</p>
+                <p>Brac university</p>
+              </li>
+              <li className="p-5">
+                <span class="bg-[#2fbf71] text-secondary text-[11px] px-2 py-[1px] inline-block align-top tracking-wide -ml-6 relative mb-2.5">
+                  2015-2017
+                </span>
+                <h6 class="text-secondary my-1.5">
+                  Higher Secondary School Certificate
+                </h6>
+                <p>Govt. Science College</p>
+              </li>
+              <li className="p-5">
+                <span class="bg-[#2fbf71] text-secondary text-[11px] px-2 py-[1px] inline-block align-top tracking-wide -ml-6 relative mb-2.5">
+                  2010-2015
+                </span>
+                <h6 class="text-secondary my-1.5">
+                  Secondary School Certificate
+                </h6>
+                <p>Ideal School & College</p>
               </li>
             </ul>
           </div>

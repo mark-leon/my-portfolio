@@ -5,38 +5,38 @@ const WhatIDo = () => {
     {
       title: "Web Design",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "I design and develop responsive, user-friendly websites and applications, focusing on delivering a seamless user experience. I ensure that the interfaces I create are visually appealing and accessible across different devices and platforms, using modern frameworks and tools like ReactJS, Next.js, and Tailwind CSS.        ",
       icon: "📱", // Replace with appropriate icon or SVG
     },
     {
-      title: "Web Development",
+      title: "Frontend Architecture",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "I build and maintain scalable frontend architectures that align with the project’s long-term goals. This includes organizing code structures, creating reusable components, and optimizing performance to ensure that applications load quickly and function smoothly.        ",
       icon: "💻", // Replace with appropriate icon or SVG
     },
     {
-      title: "SEO Marketing",
+      title: "API Integration",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "I work closely with backend developers to integrate third-party APIs and backend services, ensuring efficient data fetching, caching, and synchronization and enhance user interactions by providing real-time data without compromising performance.        ",
       icon: "🎯", // Replace with appropriate icon or SVG
     },
     {
-      title: "Web Design",
+      title: "Data Visualization",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "I implement data visualization tools like Apex Chart JS to turn complex data into interactive charts and graphs. This helps users easily understand key insights, making the user interface both functional and informative.",
+      icon: "🎯", // Replace with appropriate icon or SVG
+    },
+    {
+      title: "Component & UI Frameworks",
+      description:
+        "I utilize and customize component libraries such as Material UI and Flowbite to speed up development while maintaining a cohesive design language across the application. I also develop custom UI elements tailored to project-specific requirements.",
       icon: "📱", // Replace with appropriate icon or SVG
     },
     {
-      title: "Web Development",
+      title: "Cross-Browser Compatibility",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "I ensure that all web applications I build are compatible across different browsers and devices, conducting extensive testing to prevent bugs and maintain a smooth and responsive user experience for all users.",
       icon: "💻", // Replace with appropriate icon or SVG
-    },
-    {
-      title: "SEO Marketing",
-      description:
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      icon: "🎯", // Replace with appropriate icon or SVG
     },
   ];
 
@@ -55,13 +55,9 @@ const WhatIDo = () => {
                 <div className="text-secondary text-4xl mr-4"></div>
                 <div>
                   <h3 className="text-secondary text-xl font-bold mb-2">
-                    Web Design
+                    {service.title}
                   </h3>
-                  <p className="text-gray-400">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                    sed do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua.
-                  </p>
+                  <p className="text-gray-400">{service.description}</p>
                 </div>
               </div>
             </div>

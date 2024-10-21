@@ -69,20 +69,47 @@ const Works = () => {
       </div>
 
       <div className="mt-20 flex flex-wrap gap-7">
-        {projects.map((project, index) => (
+        {/* {projects.map((project, index) => (
           <ProjectCard key={`project-${index}`} index={index} {...project} />
-        ))}
-        {/* <div className="mt-20 flex flex-wrap gap-7">
-          <img
-            src={
-              "https://s3.brilliant.com.bd/docs-images/platformScreenshots/createAlarm.gif"
-            }
-            alt="A cool GIF"
-          />
-        </div> */}
+        ))} */}
         <video autoPlay loop muted playsInline>
           <source
-            src="https://s3.brilliant.com.bd/leion_portfolio/gifs/5ee89892-bb00-454e-8cbf-d43921a0783e.webm"
+            src="https://s3.brilliant.com.bd/leion_portfolio/gifs/brilliant%20frive.mp4"
+            type="video/webm"
+          />
+          Your browser does not support the video tag.
+        </video>
+        <video autoPlay loop muted playsInline>
+          <source
+            src="https://s3.brilliant.com.bd/leion_portfolio/gifs/autoscale.mp4"
+            type="video/webm"
+          />
+          Your browser does not support the video tag.
+        </video>
+        <video autoPlay loop muted playsInline>
+          <source
+            src="https://s3.brilliant.com.bd/leion_portfolio/gifs/admin.mp4"
+            type="video/webm"
+          />
+          Your browser does not support the video tag.
+        </video>
+        <video autoPlay loop muted playsInline>
+          <source
+            src="https://s3.brilliant.com.bd/leion_portfolio/gifs/connect-ticketing.mp4"
+            type="video/webm"
+          />
+          Your browser does not support the video tag.
+        </video>
+        <video autoPlay loop muted playsInline>
+          <source
+            src="https://s3.brilliant.com.bd/leion_portfolio/gifs/storage%20s3.mp4"
+            type="video/webm"
+          />
+          Your browser does not support the video tag.
+        </video>
+        <video autoPlay loop muted playsInline>
+          <source
+            src="https://s3.brilliant.com.bd/leion_portfolio/gifs/intercloud.mp4"
             type="video/webm"
           />
           Your browser does not support the video tag.

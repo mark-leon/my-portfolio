@@ -15,7 +15,7 @@ import { MdContactEmergency } from "react-icons/md";
 import CircularLogos from "./circularLogos";
 import Works from "./Works";
 import FlipCard from "./blog";
-import Testimonial from "./testimonial";
+// import Testimonial from "./testimonial";
 import Feedbacks from "./Testimonial";
 
 const Sidebar = () => {
@@ -181,12 +181,8 @@ const Sidebar = () => {
         <WhatIDo />
         <Experience />
         <Works />
-        {/* <Feedbacks /> */}
-        <Testimonial />
-        <Contact />
         <Feedbacks />
-        {/* <FlipCard /> */}
-        {/* <CircularLogos /> */}
+        <Contact />
       </div>
     </>
   );

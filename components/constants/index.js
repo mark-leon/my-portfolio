@@ -67,27 +67,30 @@ const projects = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+      "A quick learning person always ready to learn new things. I wish him all the best.",
+    name: "Simon Islam",
+    designation: "Backend Engineer",
+    company: "NextGen Cloud",
+    image:
+      "https://s3.brilliant.com.bd/nijhum/portfolio-images/feedback/simon_vai.jpg",
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+      "I am really enjoying working with Leion at Intercloud Limited. Whenever he can, he is willing to assist others. I give him a thumbs-up!",
+    name: "Sayeem Abdullah",
+    designation: "Ex Software Engineer",
+    company: "Intercloud Limited",
+    image:
+      "https://s3.brilliant.com.bd/nijhum/portfolio-images/feedback/sayeem.jpg",
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+      "I am confident that Nijhum would be a valuable member of any tech industry.",
+    name: "Jahidul Momin Sajib",
+    designation: "Backend Engineer",
+    company: "NextGen Cloud",
+    image:
+      "https://s3.brilliant.com.bd/nijhum/portfolio-images/feedback/sajib_vai.jpg",
   },
 ];
 

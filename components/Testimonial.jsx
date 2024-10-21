@@ -43,37 +43,27 @@ const FeedbackCard = ({
 
 const Feedbacks = () => {
   return (
-    // <div className="max-w-6xl mx-auto mt-20">
-    //   <p className="text-3xl font-semibold mb-6 text-secondary">
-    //     What others say
-    //   </p>
-    //   <div className="w-full flex">
-    //     <p className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]">
-    //       Testimonials
-    //     </p>
-    //   </div>
-
-    //   <div className="mt-20 flex flex-wrap gap-7">
-    //     {testimonials.map((testimonial, index) => (
-    //       <FeedbackCard key={testimonial.name} index={index} {...testimonial} />
-    //     ))}
-    //   </div>
-    // </div>
-    <div className={`mt-12 bg-black-100 rounded-[20px]`}>
-      <div
-        className={`bg-tertiary rounded-2xl sm:px-16 px-6 sm:py-16 py-10 min-h-[300px]`}
-      >
-        <p className="sm:text-[18px] text-[14px] text-secondary uppercase tracking-wider">
-          What others say
-        </p>
-        <h2 className="text-white font-black md:text-[60px] sm:text-[50px] xs:text-[40px] text-[30px]">
-          Testimonials.
-        </h2>
-      </div>
-      <div className={`-mt-20 pb-14 sm:px-16 px-6 flex flex-wrap gap-7`}>
-        {testimonials.map((testimonial, index) => (
-          <FeedbackCard key={testimonial.name} index={index} {...testimonial} />
-        ))}
+    <div className="max-w-6xl mx-auto mt-20">
+      <div className={`mt-6 bg-black-100 rounded-[20px]`}>
+        <div
+          className={`bg-tertiary rounded-2xl sm:px-16 px-6 sm:py-16 py-10 min-h-[300px]`}
+        >
+          <p className="sm:text-[18px] text-[14px] text-secondary uppercase tracking-wider">
+            What others say
+          </p>
+          <h2 className="text-white font-black md:text-[60px] sm:text-[50px] xs:text-[40px] text-[30px]">
+            Testimonials.
+          </h2>
+        </div>
+        <div className={`-mt-20 pb-14 sm:px-16 px-6 flex  gap-7`}>
+          {testimonials.map((testimonial, index) => (
+            <FeedbackCard
+              key={testimonial.name}
+              index={index}
+              {...testimonial}
+            />
+          ))}
+        </div>
       </div>
     </div>
   );
