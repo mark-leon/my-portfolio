@@ -110,7 +110,7 @@ const Sidebar = () => {
                 <span className="flex-1 ms-3 whitespace-nowrap">BLOGS</span>
               </a>
             </li>
-            <li>
+            {/* <li>
               <a
                 href="#"
                 className="flex items-center p-2 text-secondary rounded-lg dark:text-secondary  hover:text-green group"
@@ -120,7 +120,7 @@ const Sidebar = () => {
                   CONTACT ME
                 </span>
               </a>
-            </li>
+            </li> */}
           </ul>
           <div className="absolute bottom-0 left-0 p-4">
             <ul className="flex space-x-4">

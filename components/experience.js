@@ -8,8 +8,15 @@ const experiences = [
     company: "Intercloud Limited",
     location: "Shahjadpur, Dhaka",
     duration: "May 2022 - Present",
-    description:
-      "Developed complex, full-stack applications incorporating features like user authentication, real-time data updates, admin controls, leveraging Next.js, Node.js, PostgreSQL, and Redux Toolkit Optimized data management by integrating React Query for efficient API request handling, data caching, and synchro-nization, resulting in reduced API load and improved application performance. Collaborated cross-functionally with back-end developers and UX/UI designers to ensure cohesive and user-friendly interfaces, aligning technical implementation with business objectives. Enhanced application testing and quality assurance by incorporating comprehensive testing frameworks like Cypress, leading to higher code quality and reduced bugs.",
+    description: [
+      "Developed complex, full-stack applications using Next.js, Node.js, PostgreSQL, and Redux Toolkit.",
+      "Optimized data management by integrating React Query for efficient API handling, data caching, and synchronization.",
+      "Collaborated with back-end developers and UX/UI designers to create cohesive and user-friendly interfaces.",
+      "Incorporated Cypress testing framework for enhanced quality assurance and reduced bugs.",
+      "Implemented CI/CD pipelines for automating front-end project deployments.",
+      "Mentored junior engineers to ensure best practices in coding and design.",
+      "Utilized Docker for containerization, streamlining deployment on Brilliant Cloud.",
+    ],
   },
   // {
   //   companyLogo: "https://sergio-react.vercel.app/static/img/a1.png",
@@ -45,7 +52,7 @@ const Experience = () => {
               alt={`${exp.company} logo`}
               className="h-20 w-40 mb-4 md:mb-0 md:mr-6"
             />
-            <div className="flex-grow">
+            <div className="flex-grow mt-8">
               <div className="flex justify-between items-center mb-2">
                 <h3 className="text-xl font-semibold text-secondary">
                   {exp.role}
@@ -58,7 +65,13 @@ const Experience = () => {
                 {exp.company} | {exp.location}
               </p>
               <p className="text-gray-400 mb-4">{exp.duration}</p>
-              <p className="text-gray-400">{exp.description}</p>
+              <ul>
+                {exp.description.map((bullet, index) => (
+                  <li className="text-gray-400 mb-4" key={index}>
+                    {bullet}
+                  </li>
+                ))}
+              </ul>
             </div>
           </div>
         ))}

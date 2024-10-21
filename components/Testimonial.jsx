@@ -13,7 +13,7 @@ const FeedbackCard = ({
   return (
     <div
       //   variants={fadeIn("", "spring", index * 0.5, 0.75)}
-      className="bg-black-200 p-10 rounded-3xl xs:w-[320px] w-full"
+      className="bg-[#10101A] p-10 rounded-3xl xs:w-[320px] w-full"
     >
       <p className="text-white font-black text-[48px]"></p>
 
@@ -44,9 +44,9 @@ const FeedbackCard = ({
 const Feedbacks = () => {
   return (
     <div className="max-w-6xl mx-auto mt-20">
-      <div className={`mt-6 bg-black-100 rounded-[20px]`}>
+      <div className={`mt-6 bg-[#0F172A] rounded-[20px]`}>
         <div
-          className={`bg-tertiary rounded-2xl sm:px-16 px-6 sm:py-16 py-10 min-h-[300px]`}
+          className={` rounded-2xl sm:px-16 px-6 sm:py-16 py-10 min-h-[300px]`}
         >
           <p className="sm:text-[18px] text-[14px] text-secondary uppercase tracking-wider">
             What others say
