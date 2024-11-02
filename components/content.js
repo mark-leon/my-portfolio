@@ -28,7 +28,11 @@ const Content = () => {
       <div className="md:w-1/2 flex justify-center mb-8 md:mb-0">
         <div className="relative">
           <div className="rounded-full flex items-center justify-center overflow-hidden">
-            <Lottie animationData={developer} loop={true} style={style} />
+            <Lottie
+              animationData={developer}
+              loop={true}
+              className="responsiveContent "
+            />
           </div>
         </div>
       </div>

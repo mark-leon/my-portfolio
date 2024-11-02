@@ -42,7 +42,7 @@ const Contact = () => {
         <div className="bg-primary  text-secondary p-6 rounded-lg shadow-md">
           <h2 className="text-2xl font-semibold mb-4">Say Something</h2>
           <div>
-            <div className="mb-4">
+            <div className="mb-4 flex">
               <input
                 type="text"
                 placeholder="Name"
@@ -74,24 +74,13 @@ const Contact = () => {
             </div>
             <button
               type="submit"
-              className="w-full bg-green-500 text-secondary p-2 rounded-md hover:bg-green-600"
+              className="w-full bg-green text-secondary p-2 rounded-md hover:bg-green-600"
             >
-              send message
+              Send message
             </button>
           </div>
         </div>
       </div>
-      {/* <div className="mt-20">
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.843821578896!2d144.96305791557644!3d-37.81362774259238!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0xf5776e97a6e8d7e!2sEnvato!5e0!3m2!1sen!2sus!4v1630641533370!5m2!1sen!2sus"
-          width="100%"
-          height="350"
-          allowFullScreen=""
-          loading="lazy"
-          // className="border-0"
-          className="iframe-style"
-        ></iframe>
-      </div> */}
     </div>
   );
 };

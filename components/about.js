@@ -10,7 +10,11 @@ const AboutMe = () => {
   return (
     <div className="max-w-6xl mx-auto gap-10 flex flex-col lg:flex-row  items-center justify-center">
       <div className="grid grid-cols-1 sm:grid-cols-1">
-        <Lottie animationData={coding} loop={true} style={style} />
+        <Lottie
+          animationData={coding}
+          loop={true}
+          className="responsiveContent "
+        />
       </div>
       <div className="lg:ml-16 mt-8 lg:mt-0 text-center lg:text-left max-w-lg text-secondary">
         <h2 className="text-3xl font-semibold mb-4">ABOUT ME.</h2>

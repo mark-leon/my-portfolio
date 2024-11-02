@@ -85,7 +85,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "I am confident that Nijhum would be a valuable member of any tech industry.",
+      "I am confident that Leion would be a valuable member of any tech industry.",
     name: "Jahidul Momin Sajib",
     designation: "Backend Engineer",
     company: "NextGen Cloud",

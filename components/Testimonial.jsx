@@ -11,21 +11,20 @@ const FeedbackCard = ({
   image,
 }) => {
   return (
-    <div
-      //   variants={fadeIn("", "spring", index * 0.5, 0.75)}
-      className="bg-[#10101A] p-10 rounded-3xl xs:w-[320px] w-full"
-    >
+    <div className="bg-[#10101A] p-6 sm:p-10 rounded-3xl w-full">
       <p className="text-white font-black text-[48px]"></p>
 
       <div className="mt-1">
-        <p className="text-white tracking-wider text-[18px]">{testimonial}</p>
+        <p className="text-white tracking-wider text-[16px] sm:text-[18px]">
+          {testimonial}
+        </p>
 
         <div className="mt-7 flex justify-between items-center gap-1">
           <div className="flex-1 flex flex-col">
-            <p className="text-white font-medium text-[16px]">
+            <p className="text-white font-medium text-[14px] sm:text-[16px]">
               <span className="blue-text-gradient">@</span> {name}
             </p>
-            <p className="mt-1 text-secondary text-[12px]">
+            <p className="mt-1 text-secondary text-[10px] sm:text-[12px]">
               {designation} of {company}
             </p>
           </div>
@@ -33,7 +32,7 @@ const FeedbackCard = ({
           <img
             src={image}
             alt={`feedback_by-${name}`}
-            className="w-10 h-10 rounded-full object-cover"
+            className="w-8 h-8 sm:w-10 sm:h-10 rounded-full object-cover"
           />
         </div>
       </div>
@@ -43,26 +42,29 @@ const FeedbackCard = ({
 
 const Feedbacks = () => {
   return (
-    <div className="max-w-6xl mx-auto mt-20">
+    <div className="max-w-6xl mx-auto mt-12 sm:mt-20 px-4 sm:px-6">
       <div className={`mt-6 bg-[#0F172A] rounded-[20px]`}>
         <div
-          className={` rounded-2xl sm:px-16 px-6 sm:py-16 py-10 min-h-[300px]`}
+          className={`rounded-2xl px-4 sm:px-16 py-8 sm:py-16 min-h-[200px] sm:min-h-[300px]`}
         >
-          <p className="sm:text-[18px] text-[14px] text-secondary uppercase tracking-wider">
+          <p className="text-[14px] sm:text-[18px] text-secondary uppercase tracking-wider">
             What others say
           </p>
-          <h2 className="text-white font-black md:text-[60px] sm:text-[50px] xs:text-[40px] text-[30px]">
+          <h2 className="text-white font-black text-[30px] sm:text-[40px] md:text-[50px] lg:text-[60px]">
             Testimonials.
           </h2>
         </div>
-        <div className={`-mt-20 pb-14 sm:px-16 px-6 flex  gap-7`}>
-          {testimonials.map((testimonial, index) => (
-            <FeedbackCard
-              key={testimonial.name}
-              index={index}
-              {...testimonial}
-            />
-          ))}
+        <div className={`-mt-12 sm:-mt-20 pb-8 sm:pb-14 px-4 sm:px-16`}>
+          <div className="flex flex-col sm:flex-row flex-wrap justify-center gap-6 sm:gap-7">
+            {testimonials.map((testimonial, index) => (
+              <div
+                key={testimonial.name}
+                className="w-full sm:w-[calc(50%-14px)] lg:w-[calc(33.33%-19px)]"
+              >
+                <FeedbackCard index={index} {...testimonial} />
+              </div>
+            ))}
+          </div>
         </div>
       </div>
     </div>
